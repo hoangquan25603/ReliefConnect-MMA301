@@ -1,0 +1,1 @@
+import{R as e,Ut as t,b as n,m as r,t as i}from"./_plugin-vue_export-helper-B7I6kVIi.js";var a=i(n({__name:`BaseSpinner`,props:{size:{default:`md`}},setup(n){return(i,a)=>(e(),r(`span`,{class:t([`base-spinner`,`base-spinner--${n.size}`]),role:`status`,"aria-label":`Đang tải...`},null,2))}}),[[`__scopeId`,`data-v-373aa66c`]]);export{a as t};

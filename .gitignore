@@ -1,0 +1,46 @@
+# Tools & Artifacts
+.tools/
+artifacts/
+.test-results/
+
+# IDE & Editor cache
+.vs/
+**/.vs/
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/bin/
+**/obj/
+**/.local/
+.expo/
+**/.expo/
+
+# Android build cache
+**/android/.gradle/
+**/android/local.properties
+**/android/app/build/
+**/android/build/
+**/android/.kotlin/
+
+# Keystores & sensitive files
+*.jks
+*.keystore
+!MOBILE/android/app/debug.keystore
+
+# Databases
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Environment & Logs
+.env*
+*.log
+*.tsbuildinfo

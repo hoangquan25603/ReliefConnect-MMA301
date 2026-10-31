@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "checks": 169,
+  "sections": [
+    "demo accounts, authentication and role enforcement",
+    "registration validation, refresh rotation and logout revocation",
+    "warehouse and inventory CRUD, validation, active status and ledger",
+    "concurrent oversell protection, filters and atomic transfers",
+    "user administration, immediate revocation and admin lockout protection",
+    "password recovery email, one-time reset and password-change revocation",
+    "AI trained model, held-out examples 12/12 and unknown-input handling"
+  ],
+  "aiHeldout": {
+    "correct": 12,
+    "total": 12,
+    "results": [
+      {
+        "expected": "Food",
+        "predicted": "Food",
+        "text": "Chúng tôi đang đói, mong nhận gạo và bánh mì",
+        "confidence": 0.7583
+      },
+      {
+        "expected": "Food",
+        "predicted": "Food",
+        "text": "Hết thực phẩm nấu bữa tối",
+        "confidence": 0.7968
+      },
+      {
+        "expected": "Water",
+        "predicted": "Water",
+        "text": "Xin 20 bình nước uống sạch",
+        "confidence": 0.9558
+      },
+      {
+        "expected": "Water",
+        "predicted": "Water",
+        "text": "Nước giếng bẩn không thể uống được",
+        "confidence": 0.723
+      },
+      {
+        "expected": "Medicine",
+        "predicted": "Medicine",
+        "text": "Cần băng gạc để sơ cứu vết thương",
+        "confidence": 0.9146
+      },
+      {
+        "expected": "Medicine",
+        "predicted": "Medicine",
+        "text": "Trạm xá thiếu dụng cụ y tế",
+        "confidence": 0.7456
+      },
+      {
+        "expected": "Blanket",
+        "predicted": "Blanket",
+        "text": "Cần chăn bông để giữ ấm ban đêm",
+        "confidence": 0.9121
+      },
+      {
+        "expected": "Blanket",
+        "predicted": "Blanket",
+        "text": "Các em nhỏ thiếu áo khoác mùa rét",
+        "confidence": 0.8616
+      },
+      {
+        "expected": "Shelter",
+        "predicted": "Shelter",
+        "text": "Mái nhà sập, xin lều và bạt che tạm",
+        "confidence": 0.9917
+      },
+      {
+        "expected": "Shelter",
+        "predicted": "Shelter",
+        "text": "Cần tìm chỗ ở tạm cho cả nhà",
+        "confidence": 0.5823
+      },
+      {
+        "expected": "Other",
+        "predicted": "Other",
+        "text": "Xin đèn pin và máy phát điện",
+        "confidence": 0.8983
+      },
+      {
+        "expected": "Other",
+        "predicted": "Other",
+        "text": "Tìm bộ đàm để liên lạc",
+        "confidence": 0.7612
+      }
+    ]
+  },
+  "caveat": "Authored smoke examples only, not a representative benchmark or production accuracy estimate.",
+  "completedAt": "2026-10-29T12:48:44.29Z"
+}

@@ -1,0 +1,1 @@
+import{f as e}from"./index-Bynaqv-s.js";async function t(){let{data:t}=await e.get(`/public/highlights`);return t}export{t};

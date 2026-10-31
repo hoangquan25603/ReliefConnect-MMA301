@@ -1,0 +1,6 @@
+@DisasterReliefSystem.API_HostAddress = http://localhost:5043
+
+GET {{DisasterReliefSystem.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

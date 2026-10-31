@@ -1,0 +1,59 @@
+{
+  "executedAt": "2026-10-29T12:54:09.235Z",
+  "base": "http://127.0.0.1:5173",
+  "results": [
+    {
+      "name": "connection health and malformed server validation",
+      "status": "passed"
+    },
+    {
+      "name": "wrong password shows error without redirect loop",
+      "status": "passed"
+    },
+    {
+      "name": "admin can log in and create warehouses",
+      "status": "passed"
+    },
+    {
+      "name": "create stock and show low-stock warning",
+      "status": "passed"
+    },
+    {
+      "name": "stock import, export and transfer update both warehouses",
+      "status": "passed"
+    },
+    {
+      "name": "transfer history and low-stock filter are visible",
+      "status": "passed"
+    },
+    {
+      "name": "AI analyzes Vietnamese text and renders stock context",
+      "status": "passed"
+    },
+    {
+      "name": "mobile sidebar starts closed and opens from menu button",
+      "status": "passed"
+    },
+    {
+      "name": "notification load failure remains visible with retry",
+      "status": "passed"
+    },
+    {
+      "name": "requester cannot see inventory write controls",
+      "status": "passed"
+    },
+    {
+      "name": "requester failed submission stays open and retry actually persists",
+      "status": "passed"
+    },
+    {
+      "name": "server switch verifies health then clears existing session",
+      "status": "passed"
+    },
+    {
+      "name": "no uncaught JavaScript errors",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": []
+}

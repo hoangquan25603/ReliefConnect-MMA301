@@ -1,0 +1,55 @@
+{
+  "runAt": "2026-10-29T13:23:58.850Z",
+  "platform": "React Native Web / Chromium 412×915; GPS mocked; no physical Android assertions",
+  "results": [
+    {
+      "name": "Server setup reaches login; invalid credentials stay on login",
+      "passed": true
+    },
+    {
+      "name": "Create warehouse and stock item through native UI",
+      "passed": true
+    },
+    {
+      "name": "Stock in, out, oversell rejection, transfer and transaction history",
+      "passed": true
+    },
+    {
+      "name": "AI model status, classification and stock suggestions render",
+      "passed": true
+    },
+    {
+      "name": "Register requester and keep role-specific tabs",
+      "passed": true
+    },
+    {
+      "name": "Request draft, mocked GPS, image picker and server submission",
+      "passed": true
+    },
+    {
+      "name": "Admin approval and volunteer assignment",
+      "passed": true
+    },
+    {
+      "name": "Volunteer login and complete assigned task in valid order",
+      "passed": true
+    },
+    {
+      "name": "Organization creates donation",
+      "passed": true
+    },
+    {
+      "name": "Coordinator receives donation into stock",
+      "passed": true
+    },
+    {
+      "name": "Notifications, account profile, admin lists, session reload and logout",
+      "passed": true
+    },
+    {
+      "name": "No uncaught React runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

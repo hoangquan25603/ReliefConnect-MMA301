@@ -1,0 +1,1 @@
+function e(){async function e(e){return window.confirm(e)}return{confirm:e}}export{e as t};

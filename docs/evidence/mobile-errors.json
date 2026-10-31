@@ -1,0 +1,30 @@
+{
+  "runAt": "2026-10-29T13:16:22.148Z",
+  "results": [
+    {
+      "name": "Request validation, offline failure, draft persists and restores",
+      "passed": true
+    },
+    {
+      "name": "Volunteer profile creation, skill add/remove and pending state",
+      "passed": true
+    },
+    {
+      "name": "Role request and password validation remain explicit",
+      "passed": true
+    },
+    {
+      "name": "Notification transport error can be recovered by retry",
+      "passed": true
+    },
+    {
+      "name": "Server validation and server-switch logout",
+      "passed": true
+    },
+    {
+      "name": "No uncaught runtime errors",
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

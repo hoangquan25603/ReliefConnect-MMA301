@@ -1,0 +1,1 @@
+import{f as e}from"./index-Bynaqv-s.js";async function t(){let{data:t}=await e.get(`/skills`);return t}async function n(t){let{data:n}=await e.post(`/skills`,t);return n}async function r(t,n){let{data:r}=await e.put(`/skills/${t}`,n);return r}async function i(t){let{data:n}=await e.delete(`/skills/${t}`);return n}export{r as i,i as n,t as r,n as t};

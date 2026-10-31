@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "ReliefConnect",
+    "slug": "reliefconnect-mma301",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "android": {
+      "package": "vn.reliefconnect.mma301",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Dùng vị trí của bạn để điền địa điểm cần cứu trợ."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Chọn ảnh ghi nhận tình hình cứu trợ.",
+          "cameraPermission": "Chụp ảnh ghi nhận tình hình cứu trợ.",
+          "microphonePermission": false
+        }
+      ],
+      "./plugins/withReliefAndroid"
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

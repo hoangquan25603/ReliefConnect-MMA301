@@ -1,0 +1,14 @@
+{
+  "mobileErrorScenarios": 6,
+  "workflowFinalServer": "packaged Windows self-contained EXE, port5097",
+  "vueApiTests": 5,
+  "vueUiScenarios": 13,
+  "androidBundleSourceFilesCompared": 14,
+  "mobileApiTests": 8,
+  "date": "2026-10-29",
+  "mobileUiScenarios": 12,
+  "physicalAndroidTested": false,
+  "coreAssertions": 169,
+  "androidBundleSourceMismatches": 0,
+  "workflowHttpChecks": 119
+}

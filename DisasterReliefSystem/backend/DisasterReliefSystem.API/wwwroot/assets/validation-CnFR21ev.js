@@ -1,0 +1,1 @@
+var e=/^[\p{L}\s]+$/u;function t(t){let n=t.trim();return n.length>0&&e.test(n)}export{t};

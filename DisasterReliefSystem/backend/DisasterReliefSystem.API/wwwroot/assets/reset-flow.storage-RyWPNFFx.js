@@ -1,0 +1,1 @@
+var e=`reset_flow_email`,t=`reset_flow_session_id`,n={getEmail(){return sessionStorage.getItem(e)},setEmail(t){sessionStorage.setItem(e,t)},getResetSessionId(){return sessionStorage.getItem(t)},setResetSessionId(e){sessionStorage.setItem(t,e)},clear(){sessionStorage.removeItem(e),sessionStorage.removeItem(t)}};export{n as t};

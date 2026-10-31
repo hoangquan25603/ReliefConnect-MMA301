@@ -1,0 +1,1 @@
+import{f as e}from"./index-Bynaqv-s.js";async function t(){let{data:t}=await e.get(`/admin/volunteers`);return Array.isArray(t)?t:[]}export{t};
