@@ -44,3 +44,6 @@ node_modules/
 .env*
 *.log
 *.tsbuildinfo
+
+# Local marketing assets (not published in this repository)
+/marketing/
